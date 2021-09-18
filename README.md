@@ -1,4 +1,4 @@
-# Misiin TIC
+# Mision TIC
 
 This is test project. It's usigng sass for styles, so, you need a sass compiler in order to be able to edit them.
 
