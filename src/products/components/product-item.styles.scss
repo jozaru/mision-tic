@@ -1,0 +1,14 @@
+@import 'styles/base';
+
+.product-container {
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  border-right: 1px solid $borderColor;
+  
+  span {
+    display: block;
+    border-top: 1px solid $borderColor;
+    border-left: 1px solid $borderColor;
+    padding: 5px;
+  }
+}

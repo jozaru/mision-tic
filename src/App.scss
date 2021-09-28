@@ -1,0 +1,18 @@
+@import 'styles/base';
+
+.main {
+  @include primaryFont();
+}
+
+header {
+  background-color: $headerBackgroud;
+}
+
+.main-content {
+  background-color: $greyBackgound;
+}
+
+.content {
+  width: 1024px;
+  margin: 0 auto;
+}

@@ -1,0 +1,29 @@
+@import 'styles/base';
+
+.products-container {
+  background-color: $lightBackground;
+  padding: 20px;
+}
+
+.form-container {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  row-gap: 20px;
+}
+
+.error-message {
+  color: $errorMessage;
+  font-size: $smallFont;
+}
+
+.mandatory-field {
+  color: $mandatoryField;
+}
+
+.form-input {
+  grid-column: 2 / span 4;
+}
+
+.form-button {
+  grid-column: 2;
+}
