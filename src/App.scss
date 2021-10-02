@@ -16,3 +16,8 @@ header {
   width: 1024px;
   margin: 0 auto;
 }
+
+.grid-content {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}

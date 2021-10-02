@@ -4,9 +4,20 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// providers
+import { GoogleAuthProvider } from './providers/authentication.provider';
+import { BrowserRouter } from 'react-router-dom';
+import { ApiProvider } from 'providers/api.provider';
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <GoogleAuthProvider>
+      <BrowserRouter>
+        <ApiProvider>
+          <App />
+        </ApiProvider>
+      </BrowserRouter>
+    </GoogleAuthProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
